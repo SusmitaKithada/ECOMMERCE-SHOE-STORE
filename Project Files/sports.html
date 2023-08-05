@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <title>sports</title>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="position:fixed; max-height:70px;">
+        <a class="navbar-brand pl-3" href="#">
+            <img src="data:image/png;base64,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" class="puma-logo"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto">
+            <a class="nav-link active" id="nav-link-style1" href="#Home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="nav-link-style2" href="#products">Products</a>
+            <a class="nav-link" id="nav-link-style3" href="#categories">Categories</a>
+            <a class="nav-link" id="nav-link-style4" href="#Review">Reviews</a>
+            <a class="nav-link" id="nav-link-style5" href="#Services">Services</a>
+            <a class="nav-link" id="nav-link-style6" href="#contact">Contact Us</a>
+          </div>
+          <div class="icons mt-2 ml-auto pr-2 d-flex flex-row">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            
+            <i class="fa fa-user pr-3" aria-hidden="true"></i>
+            
+          </div>
+          <div class="cart-icon">
+            <button class="open" onclick="showCart()"><i class="fa fa-shopping-cart pr-3" aria-hidden="true"></i></button>
+           
+            <div class="cart-overlay" id="cart-container" style="display: none;">
+              <div class="cart-items">
+                <div class="cart-header">
+                  <h3>Cart Items</h3>
+                  <button class="close-icon" onclick="hiddenCart()"><i class="fas fa-times"></i></button>
+                </div>
+                <span class="pname">Product Name</span>
+                <span class="pprice">Price</span>
+                <ul id="cart-list"><ul>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+        </div>
+      </nav>
+</div>
+    
+    <h1 class="home-section-heading"> Sports Shoes</h1>
+    <div class="ml-5 mr-5">
+      <div class="d-flex flex-row justify-content-start ">
+        <i class="fa fa-long-arrow-left mt-5" id="sportsToFashion" aria-hidden="true"></i>
+      </div>
+      <div class="d-flex flex-row justify-content-end  ">
+        <i class="fa fa-long-arrow-right" id="sportsToCasuals" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1 class="Home-section-heading"> Sports Shoes</h1>
+    </div>
+    <div class="products-container mt-5">
+        <div>
+          <div class="d-flex flex-row">
+            <div class="card">
+              <div class="small_card">
+                <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+                <i class="fa fa-share" aria-hidden="true"></i>
+              </div>
+            <div class="image">
+              <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/377969/01/sv01/fnd/IND/fmt/png/Fuse-2.0-Tiger-Camo-Men's-Training-Shoes" class="product-image-style">
+            </div>
+
+          <div class="products_text">
+              <h2 class="product-section-heading">Youth Indoor</h2>
+              <p class="product-section-paragraph">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <h3>$1290</h3>
+              <div class="products_star">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <a href="#" class="product-section-button" onclick="addToCart('PumaIndor', 1290)">Add To Cart</a>
+          </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/376855/22/fnd/IND/fmt/png/Deviate-NITRO-2-Women's-Running-Shoes" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Shuttle Aero</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$1090</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('PumaAeros', 1090)">Add To Cart</a>
+      </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/390537/02/sv01/fnd/IND/fmt/png/Velophasis-Luxe-Sport-Unisex-Sneakers" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Ultra Aero</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$2750</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('PumaUltra', 2750)">Add To Cart</a>
+      </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/376592/05/sv01/fnd/IND/fmt/png/Fast-FWD-Nitro-Elite-Women's-Running-Shoes" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Turco youth</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$2314</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('PumaTurco', 2314)">Add To Cart</a>
+        </div>
+      </div>
+      </div>
+      <div class="mt-5 mb-5">
+        <div class="d-flex flex-row">
+            <div class="card">
+              <div class="small_card">
+                <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+                <i class="fa fa-share" aria-hidden="true"></i>
+              </div>
+            <div class="image">
+              <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/391174/04/sv01/fnd/IND/fmt/png/RS-X-Geek-Unisex-Sneakers" class="product-image-style">
+            </div>
+
+          <div class="products_text">
+              <h2 class="product-section-heading">Varion Youth</h2>
+              <p class="product-section-paragraph">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <h3>$5900</h3>
+              <div class="products_star">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <a href="#" class="product-section-button" onclick="addToCart('PumaVaron', 5900)">Add To Cart</a>
+          </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_400,h_400/global/391723/01/sv01/fnd/IND/fmt/png/Puma-Tobey-Youth-Sneakers" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Blaze Court</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$200.99</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('PumaBlaze', 500)">Add To Cart</a>
+      </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_400,h_400/global/396131/01/sv01/fnd/IND/fmt/png/PUMA-Punch-Comfort-Youth-Sneakers" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Basket Ball</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$2500</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('BasketBall', 2500)">Add To Cart</a>
+      </div>
+        </div>
+        <div class="card ml-5">
+          <div class="small_card">
+            <i class="fa fa-heart pr-3" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        <div class="image">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/377969/01/sv01/fnd/IND/fmt/png/Fuse-2.0-Tiger-Camo-Men's-Training-Shoes" class="product-image-style">
+        </div>
+
+      <div class="products_text">
+          <h2 class="product-section-heading">Puma Rapido</h2>
+          <p class="product-section-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h3>$1500</h3>
+          <div class="products_star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <a href="#" class="product-section-button" onclick="addToCart('PumaRapid', 1500)">Add To Cart</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+</body>
+<script>
+  let sportsToFashionBtn=document.getElementById("sportsToFashion");
+  sportsToFashionBtn.onclick=function(){
+    window.location.href="fashion.html"
+  }
+  let sportsToCasualsBtn=document.getElementById("sportsToCasuals");
+  sportsToCasualsBtn.onclick=function(){
+    window.location.href="casuals.html"
+  }
+ 
+</script>
+<script src="final.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
